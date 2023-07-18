@@ -1,0 +1,79 @@
+body {
+    background-image: url("stars1.jpeg");
+    background-size: cover;
+    font-family: 'Codystar', cursive;
+    text-align: center;
+    height: 100vh;
+    color: white;
+
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.0);
+    max-width: 75%;
+    margin: auto;
+
+
+}
+
+h1 {
+    font-size: 10vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-size: 7vw;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+button {
+    border: 7px solid white;
+    border-style: inset;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    font-size:3vw;
+    width: 30vw;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+p {
+    
+    font-size:3.2vw;
+    color: white;
+    /*text-shadow: 10px 10px 25px rgb(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(81,67,21),
+    10px -10px 25px rgb(81,67,21);*/
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+a {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+#increment-btn {
+    background: #0A205A;
+}
+
+#save-btn {
+    background: #3A4C7A;
+}
+
+@media screen and (max-width: 600px) {
+    button {
+        width: 40vw;
+    }
+}
+
